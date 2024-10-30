@@ -34,12 +34,13 @@ Add the following object to the `modules.rules` array within `webpack.common.js`
 },
 ```
 
-## Install ESLint:
+## Install ESLint
 **Basic Installation:**
 Paste the following in the Terminal:
 ```
 npm install eslint --save-dev
 ./node_modules/.bin/eslint --init
 ```
-[!TIP]
-The questionnaire will let you chose the Airbnb style guide.
+>[!TIP]
+>The questionnaire will let you chose the Airbnb style guide.
+>You can read all the rules for the Airbnb style guide by going checking `./node_modules/eslint-config-airbnb/rules`
